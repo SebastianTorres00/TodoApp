@@ -14,11 +14,16 @@ const styles = StyleSheet.create({
   },
   containerViewCheckBox: {
     marginTop: 16,
-    borderColor: '#20232a',
+    borderColor: '#000',
     borderRadius: 6,
-    backgroundColor: '#61dafb',
+    backgroundColor: 'blue',
     color: 'white',
   },
+  checkBox:{
+    backgroundColor: 'grey',
+    color: '#000',
+    width: '20%',
+  }
 });
 
 export default styles;
